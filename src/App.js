@@ -1,9 +1,13 @@
-import Header from './components/Header/index';
-
+import Login from './pages/Login Page/index';
+import Routes  from './pages/sandrine file/routes';
+import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Login></Login>
+      <Router>
+        <Routes></Routes>
+      </Router>
     </div>
   );
 }

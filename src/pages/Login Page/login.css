@@ -1,0 +1,122 @@
+.logincontainer{
+  background-color:#378b7270;
+  font-family: sans-serif;
+  padding: 50px 50px;
+}
+.contform form {
+  background-color: white;
+  color: white;
+  margin-left: 110px; 
+  height: 250px;
+  position:relative;
+  margin-top: 50px;
+  padding: 20px 20px;
+  width: 250px;
+}
+.contform form input {
+  width: 200px;
+  margin-top: 10px;
+  box-shadow: 20px solid #334a60;
+  border-radius: 5px;
+  border: 1px solid #d3cccc;
+  padding: 12px 12px;
+}
+.logincontent{
+    display: flex;
+    justify-content: center;
+}
+.contform{
+    padding: 30px 30px;
+    margin-left: -121px;
+    height: 442px;
+    background-color:#334a60 ;
+    clip-path: polygon(25% 0%,100% 0%,100% 100%,15% 100%);
+}
+.contform h2{
+    color:#334a60;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+.contform h2 a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #33d4d6;
+}
+.logincont{
+    clip-path: polygon(0% 2%,100% 0%,100% 100%,0% 100%);
+}
+.logincont img{
+  width: 350px;
+  height: 500px;
+}
+.contform h3 {
+  font-size: 1.2rem;
+  margin-left: 130px;
+  padding-top: 20px;
+  color: white;
+}
+.contform h3 a {
+  color: #33d4d6;
+  padding-left: 30px;
+  text-decoration: none;
+  list-style: none;
+}
+#loginsubmit {
+    padding: 10px 110px 10px 110px;
+  background-color: #33d4d6;
+}
+@media screen and (max-width:414px) {
+  /* .logincontainer{
+  width: 100%;
+  } */
+  .logincontent{
+    display:block;
+  }
+  .contform{
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+     /* width: 100%; */
+    margin-left: 2px;
+     /* position: absolute; */
+  }
+  .contform form{
+    font-size: 1rem;
+    margin-right: 30px;
+  }
+  .logincont{
+    margin-left: 30px;
+    /* width: 100%; */
+  }
+  .logincont img{
+      width: 300px;
+      /* margin-left: 10px; */
+  }
+  .contform form{
+    margin-left: -38px;
+  }
+  .contform form input {
+    width: 180px;
+  }
+} 
+@media screen and (max-width:550px) {
+  .logincontainer{
+    width: 100%;
+  }
+  .contform{
+    width: 300px;
+  }
+  .contform h3{
+    margin-left: 50px;
+  }
+  .contform form{
+    font-size: 0.8rem; 
+    margin-left: 38px;
+  }
+  .logincont{
+    margin-left: -30px;
+    width: 300px;
+  }
+  .logincont img{
+    
+      width: 300px;
+  }
+}
