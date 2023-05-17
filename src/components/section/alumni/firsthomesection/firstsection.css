@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+h2{
+    font-weight: bold;
+
+}
+.para{
+    color: #334a60;
+    font-weight: 600;
+}
+.designer{
+    background-color: #5ca1a1;
+    color: white;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+
+}
+.frontend{
+    background-color: #357c7d;
+    color: white;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+}
+.backend{
+    background-color: #800c0c;
+    color: white;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+
+}
+.whole{
+    display: flex;
+}
+h4{
+    margin-top: 10px;
+    color: #334a60;
+    margin-left:5px;
+
+    
+}
+button{
+    background:linear-gradient(to bottom, #c4eced,#319091);
+    height: 40px;
+    font-weight: bold;
+    border:none;
+    width: 120px;
+    border-radius: 5px;
+}
+.left{
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.rigth{
+    background-image: url(../firsthomesection/image/download\ \(1\).jpeg);
+    object-fit: contain;
+    width: 273px;
+    height: 180px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-right: 99px;
+  
+
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.lin{
+    display: flex;
+    margin-left: 63px;
+}
+
+@keyframes SlideInLeft{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(300px);
+    }
+}
+.left{
+    animation-name: SlideInLeft;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    
+    transform: translateX(20px);
+}
+.partners{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* border-color: #357c7d; */
+    border: 1px solid #33D4D6;
+    margin-left: 40px;
+    height: 90px;
+    padding: 10px;
+
+}
+.under{
+    width: 500px;
+    height: 3px;
+    /* background:linear-gradient(to rigth,#35a0c1,#656363); */
+    background-color: #319091;
+}
+.undr{
+    width: 500px;
+    height: 3px;
+    /* background:linear-gradient(to rigth,#35a0c1,#656363); */
+    background-color: #319091;
+    margin-left: 10px;
+
+}
+h3{
+    margin-left: 9px;
+    margin-top: -12px;
+}
+i{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
