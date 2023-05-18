@@ -1,23 +1,15 @@
 import React from "react";
 import "./Footer.css";
-import Image1 from "./Images/SecondWave.svg";
-import Image2 from "./Images/ThirdWave.svg";
 
 const Footer = () => {
   return (
     <div className="body-foot">
-      <div className="waves">
-        <div className="wave wave1"></div>
-      </div>
-      <div className="images">
-        <div className="image1">
-          <img src={Image1} />
-        </div>
-        <div className="image2">
-          <img src={Image2} />
-        </div>
-      </div>
       <div className="footer-content">
+        <div className="waves">
+          <div className="wave" id="wave1"></div>
+          <div className="wave" id="wave2"></div>
+          <div className="wave" id="wave3"></div>
+        </div>
         <div id="company">
           <h3 className="color">Company</h3>
           <ul>
@@ -67,19 +59,13 @@ const Footer = () => {
           <h3 className="color">Follow us:</h3>
           <div className="follow">
             <div className="square">
-              <a href="">
-                <i class="bx bxl-linkedin-square"></i>
-              </a>
+              <i class="bx bxl-linkedin-square"></i>
             </div>
             <div className="square">
-              <a href="">
-                <i class="bx bxl-instagram"></i>
-              </a>
+              <i class="bx bxl-instagram"></i>
             </div>
             <div className="square">
-              <a href="">
-                <i class="bx bxl-twitter"></i>
-              </a>
+              <i class="bx bxl-twitter"></i>
             </div>
           </div>
         </div>
