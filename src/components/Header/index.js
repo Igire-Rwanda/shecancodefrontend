@@ -21,7 +21,7 @@ let Index = () => {
             <a href="#">Contact</a>
           </li>
           <li>
-            <a href="#">Program</a>
+            <a href="/program">Program</a>
           </li>
           <li>
             <a href="#">Login</a>
