@@ -1,0 +1,32 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#back{
+  background-color: #33d4d3;
+color: white;
+width: 120px;
+height: 40px;
+padding: 10px;
+border: none;
+border-radius: 50px;
+margin-top: 600px;
+
+}
+button{
+  margin-left: 400px;
+  width: 100px;
+  height: 100px;
+
+ 
+}
+
+#back:hover{
+  
+  background: transparent;
+  color: #334a60;
+  border:2px solid #334a60;
+
+}

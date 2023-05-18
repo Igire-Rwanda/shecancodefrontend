@@ -1,11 +1,11 @@
 
-import Firstsection from '../src/components/section/alumni/firsthomesection/firstsection'
+import Backing from  './components/button/button'
 
 function App() {
   return (
-    <div className="App">
-      <Firstsection />
-    </div>
+    
+      <Backing/>
+    
   );
 }
 
