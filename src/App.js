@@ -1,11 +1,11 @@
-// import Header from './components/Header/index';
-import Footer from "./components/Footer";
-
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "./routes/index";
 function App() {
   return (
-    <div className="App">
-      <Footer />
-    </div>
+    <Router>
+      <Routes></Routes>
+    </Router>
   );
 }
 
