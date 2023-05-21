@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import Image1 from "./Images/SecondWave.svg";
-import Image2 from "./Images/ThirdWave.svg";
+// import Image1 from "./Images/SecondWave.svg";
+// import Image2 from "./Images/ThirdWave.svg";
 
 const Footer = () => {
   return (
@@ -11,10 +11,10 @@ const Footer = () => {
       </div>
       <div className="images">
         <div className="image1">
-          <img src={Image1} />
+          {/* <img src={Image1} /> */}
         </div>
         <div className="image2">
-          <img src={Image2} />
+          {/* <img src={Image2} /> */}
         </div>
       </div>
       <div className="footer-content">
