@@ -9,6 +9,7 @@ const Footer = () => {
       <div className="waves">
         <div className="wave wave1"></div>
       </div>
+
       <div className="images">
         <div className="image1">
           <img src={Image1} />
