@@ -1,20 +1,20 @@
  
-import Header from './components/Header/index';
-import Nav from './components/Nav';
-function App() {
-  return (
-    <div className="App">
-  <Nav/>
-  <Header/>
-    </div>
+// import Header from './components/Header/index';
+// import Nav from './components/Nav';
+// function App() {
+//   return (
+//     <div className="App">
+//   <Nav/>
+//   <Header/>
+//     </div>
  
-import Course from "./components/section/alumni/explore-course/course"
+// import Course from "./components/section/alumni/explore-course/course"
 
-function App() {
-  return (
-    <div className="App">
-      <Course/>
-    </div>
+// function App() {
+//   return (
+//     <div className="App">
+//       <Course/>
+//     </div>
 
 import { BrowserRouter as Router } from "react-router-dom";
 import Routes from "./routes/index";

@@ -8,10 +8,8 @@
     color: white;
 }
 .all{
-    position: sticky;
-    width: 1365px;
-    top: 0;
-    right: 0;
+    position: fixed;
+    width: 100%;
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -31,6 +29,7 @@ img{
 }
 .navbar a{
     font-size: 17px;
+    color: black;
     font-weight: 500;
     padding: 5px 0;
     margin: 0 30px;

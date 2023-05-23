@@ -2,9 +2,7 @@ import React from 'react'
 import './firstsection.css'
 const Firstsection = () => {
     return ( 
- 
-        <div>
- 
+ <>
         <div className='bigcont'>
  
             <div className='container'>
@@ -27,6 +25,7 @@ const Firstsection = () => {
            
         </div>
         </div>
+        </>
      );
 }
  

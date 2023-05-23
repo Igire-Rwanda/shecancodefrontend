@@ -19,7 +19,7 @@ let Bar =()=>{
            <div class="text">
             <p>Call Now! <br/> 0788473533</p>
            </div>
-           <div class="line"></div>
+           <div className="borrder"></div>
            <div class="icon">
            <i class='bx bx-envelope'></i>
            </div>
