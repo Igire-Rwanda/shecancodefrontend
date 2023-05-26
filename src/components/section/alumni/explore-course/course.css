@@ -188,7 +188,7 @@ color: rgb(209, 209, 209);
 
 .row8{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     border: 1px solid rgb(185, 183, 183);
     width: 90%;
     padding: 5px 5px;
