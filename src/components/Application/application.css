@@ -19,7 +19,7 @@ h1 {
       rgba(25, 135, 179, 0.577),
       rgba(250, 250, 250, 0.6)
     ),
-    url("https://images.pexels.com/photos/5076531/pexels-photo-5076531.jpeg?auto=compress&cs=tinysrgb&w=600");
+    url('https://images.pexels.com/photos/5076531/pexels-photo-5076531.jpeg?auto=compress&cs=tinysrgb&w=600');
   width: 100%;
   height: 70vh;
   background-repeat: no-repeat;
@@ -37,57 +37,63 @@ h1 {
   margin-left: 250px;
   margin-top: 60px;
 }
+.application-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+h3 {
+  padding-top: 30px;
+}
 .appliction-middle {
   display: flex;
   /* height: 50vh; */
   width: 90%;
   margin: auto;
 }
-h3 {
-  padding-top: 30px;
-}
-.appliction-middle2 {
+.middle-1-content {
   display: flex;
-  /* height: 50vh; */
-  width: 90%;
-
-  margin-top: 30px;
-  margin-left: 65px;
-
-  /* margin: auto; */
+  align-items: center;
 }
-.application-middlePart1 {
-  display: flex;
-  width: 50%;
-  height: 20vh;
-  padding: 15px;
-}
-.middlepart-left {
-  border: 1px solid rgb(1, 49, 76);
-  width: 150px;
-  height: 100px;
+
+.middle-1-left {
   padding: 28px 13px;
-  border-radius: 50%;
   margin-top: 25px;
+  border: 0.1875em solid #0f1c3f;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgb(15 28 63 / 13%);
+  height: 5em;
+  width: 5em;
 }
 
-.middlepart-right {
-  padding-left: 25px;
-  margin-top: 20px;
+.middle-1-right {
+  margin-left: 20px;
+  width: 70%;
 }
-.middlepart-right h2 {
-  text-align: center;
-  padding: 5px 7px 15px 5px;
+.middle-1-right h3 {
+  margin-bottom: 5px;
 }
-.application-middlePart2 {
-  width: 50%;
-  height: 20vh;
-  display: flex;
-}
+
 .application-lower-content {
   margin-top: 50px;
   padding-bottom: 40px;
 }
+.middle-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.middle-2 h1 {
+  width: 35%;
+  color: #000;
+  font-weight: 500;
+  border-bottom: 1px solid #294682;
+  padding-bottom: 10px;
+}
+
 .application-lower-content p {
   text-align: center;
   padding: 20px 200px;
