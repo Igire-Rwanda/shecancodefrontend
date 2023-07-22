@@ -72,8 +72,6 @@ const About = () => {
             We are strongly convinced that tech is for everyone and we support
             you to achieve your goals whatever your project. SheCanCode now
             boasts a community of 21,000 graduates from all walks of life,
-            including a lot of entrepreneurs who created 212 tech startups and
-            raised $820M+ globally.
           </p>
           <Button btnTitle={"Siscover more"} />
         </div>
