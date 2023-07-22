@@ -128,8 +128,8 @@ const About = () => {
         <h1>SheCanCode Team</h1>
         <p>
           Shecacode Teck talented team in the “train of higher education”.{" "}
-          <br /> And a wagon is a vehicle that takes a group of people (like a
-          class of students)
+          <br /> And a wagon is that takes a group of people (like a class of
+          students)
         </p>
         <div className="leadership-form">
           {leadershipTeam.map((team) => (
