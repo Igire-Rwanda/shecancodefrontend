@@ -18,9 +18,9 @@ const COURSES = [
   },
   {
     image: "/images/holidaysBootcamp.jpg",
-    title: "High School holidays tech bootcamp",
-    description: "Unlock the world of technology for your child this holiday season with our dynamic High School Holidays Tech Bootcamp! Youngsters aged 13-18, are welcome to join our boot camp if they have a curious mindset, a passion for technology, a community-oriented attitude, and excitement about the evolving tech landscape!",
-    destination: ""
+    title: "High School Students Coding Camp",
+    description: "Improve your coding experience with hands-on practice learning for 5 weeks.",
+    destination: "/highschoolbootcamp"
   },
   {
     image: "/images/partTimeImg.jpeg",

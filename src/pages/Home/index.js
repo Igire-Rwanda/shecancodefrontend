@@ -12,12 +12,29 @@ import Offers from "./offers";
 import PopupMessage from ".././Courses page/Popup";
 import Parteners from "../../components/parteners";
 import Index from "../../components/partners";
+import { useEffect, useState } from "react";
+import PopupModel from "./PopupModel";
+
 let Home = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowModal(true);
+    }, 3000); // Show modal after 3 seconds
+
+    return () => clearTimeout(timer); // Cleanup the timer
+  }, []);
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <div>
       <Bar />
       <Header />
-     
+      {showModal && <PopupModel closeModal={closeModal}/>}
       <Heading />
       <Offers />
       {/* <Index /> */}
