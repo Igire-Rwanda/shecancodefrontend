@@ -30,7 +30,7 @@ const HighSchool = () => {
             <a href='https://forms.office.com/r/ixyZS72QVS' className='bg-orange-400 border-l-4 py-2 px-4 mt-3 text-white mb-3 w-full md:w-fit'>
               <span className='font-bold'>Cost:</span> 
               <br/>Program fee: 200,000 Rwf
-              <br/>Scholarship: <strong><em>100,000 Rwf (For those who are eligible)</em></strong>  
+              <br/>Scholarship: <strong><em>50,000 Rwf</em>&nbsp;&nbsp;<em className='line-through'>100,000 Rwf </em>(For those who are eligible)</strong>  
             </a>
             <a href='https://forms.office.com/r/ixyZS72QVS' className='mob-btn mb-12 w-fit'>Apply Now</a>
           </div>
