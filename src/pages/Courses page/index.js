@@ -20,7 +20,8 @@ const COURSES = [
     image: "/images/holidaysBootcamp.jpg",
     title: "High School Students Coding Camp",
     description: "Improve your coding experience with hands-on practice learning for 5 weeks.",
-    destination: "/highschoolbootcamp"
+    destination: "#"
+    // destination: "/highschoolbootcamp"
   },
   {
     image: "/images/partTimeImg.jpeg",

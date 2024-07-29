@@ -26,15 +26,15 @@ let Home = () => {
     return () => clearTimeout(timer); // Cleanup the timer
   }, []);
 
-  const closeModal = () => {
-    setShowModal(false);
-  };
+  // const closeModal = () => {
+  //   setShowModal(false);
+  // };
 
   return (
     <div>
       <Bar />
       <Header />
-      {showModal && <PopupModel closeModal={closeModal}/>}
+      {/* {showModal && <PopupModel closeModal={closeModal}/>} */}
       <Heading />
       <Offers />
       {/* <Index /> */}
